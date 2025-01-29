@@ -1,0 +1,17 @@
+# Define the array
+array = [3, 6, 2, 8, 4, 1, 9, 5]
+
+# Initialize variables for the largest and smallest elements
+largest = array[0]
+smallest = array[0]
+
+# Iterate through the array to find the largest and smallest elements
+for element in array:
+    if element > largest:
+        largest = element
+    if element < smallest:
+        smallest = element
+
+# Print the results
+print("Largest element in the array:", largest)
+print("Smallest element in the array:", smallest)
