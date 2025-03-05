@@ -54,14 +54,21 @@ class LinkedList:
         print()
 
 
-# Example of operations
-ll = LinkedList()
-
-# Insert values at the beginning
-ll.insert_at_beginning(10)
-ll.insert_at_beginning(20)
-ll.insert_at_beginning(30)
-
-# Print the linked list
-print("LinkedList after inserting at the beginning:")
-ll.traverse()
+linked_list = LinkedList() 
+# Insert elements at the beginning 
+linked_list.insert_at_beginning(10) 
+linked_list.insert_at_beginning(20) 
+print("Linked list after inserting 20, 10 at the beginning:") 
+linked_list.traverse() 
+# Insert elements at the end 
+linked_list.insert_at_end(30) 
+linked_list.insert_at_end(40) 
+print("\nLinked list after inserting 30, 40 at the end:")
+linked_list.traverse() 
+# Delete a node 
+linked_list.delete_node(20) 
+print("\nLinked list after deleting node with data 20:") 
+linked_list.traverse() 
+# Traverse the list 
+print("\nTraversing the linked list:") 
+linked_list.traverse() 
