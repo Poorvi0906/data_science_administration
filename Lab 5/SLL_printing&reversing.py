@@ -18,9 +18,10 @@ class SinglyLinkedList:
             current.next = new_node
 
     def reverse(self):
-        prev, current = None, self.head
+        prev = None
+        current = self.head
         while current:
-            current.next, prev, current = prev, current, current.next
+            current.next , prev, current = prev, current, current.next
         self.head = prev
 
     def display(self):
