@@ -17,9 +17,10 @@ class Graph:
 
 # Example usage:
 g = Graph()
-g.add_edge('self','v')
-g.add_edge('self','w')
-g.add_edge('v','none')
+g.add_edge(1, 2)
+g.add_edge(1, 3)
+g.add_edge(2, 3)
+g.add_edge(3, 4)
 g.display()
 
 
